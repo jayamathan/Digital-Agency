@@ -17,7 +17,8 @@
             font-weight: 600;
             letter-spacing: -3px;
             padding-right: 60px;
-            transition: all .4s ease-in;
+            opacity: 0;
+            transition: all .6s ease-in;
         }
 
         .Services_Intro-Right {
@@ -28,7 +29,8 @@
             font-weight: 400;
             line-height: 46px;
             color: rgb(137, 137, 137);
-            transition: all .4s ease-in;
+            opacity: 0;
+            transition: all .6s ease-in;
         }
 
 @media screen and (max-height: 700px){
@@ -103,9 +105,13 @@
         .Services_Section-Service-Container {
             width: 100%;
             padding: 80px 0px;
-            border-top: 1px solid #141414;
-            transition-delay: .4s;
+            border-top: 2px solid #c4c4c4;
+            opacity: 0;
+            transition: all .6s ease-in;
         }
+            .Services_Section-Service-Container:last-child {
+                border-bottom: 2px solid #c4c4c4;
+            }
 
             .Services_Section-Service-Label {
                 width: 100%;
@@ -141,6 +147,7 @@
                     align-items: center;
                     transition: all .4s ease-in;
                     cursor: pointer;
+                    display: none;
                     
                 }
 
@@ -187,9 +194,21 @@
                 }
 
 @media screen and (max-width: 900px){
+    .Services_Section {
+        margin-top: 130px;
+    }
     .Services_Section-Service-Description-Text {
         font-size: 16px;
         line-height: 28px;
+    }
+    .Services_Section-Service-Container {
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Services_Section-Service-Label-Text {
+        font-size: 20px;
     }
 }
 

@@ -61,37 +61,6 @@ import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
             .to(LandingClients, 1, {opacity: 1}, '-=1.3')
             ;
 
-            // LandingIntroTl.pause();
-    // //Intro Scene
-    // const LandingIntroTl = new TimelineMax();
-    // LandingIntroTl
-    //     //Hide All
-    //     .add('Init')
-    //         .set(LandingHeader, {opacity: 0, y: 50}, 'Init')
-    //         .set(LandingConstantAddress, {opacity: 0, x: -50}, 'Init')
-    //         .set(LandingConstantSocials, {opacity: 0, y: 50}, 'Init')
-    //         .set(LandingConstantConnectIcon, {opacity: 0, y: 50}, 'Init')
-    //         .set(LandingIntroHeader, {opacity: 0, y: 50}, 'Init')
-    //         .set(LandingIntroRight, {opacity: 0, y: 50}, 'Init')
-    //         .set(LandingClients, {opacity: 0})
-    //     //Loading
-    //         .to(LandingLoading, 1.5, {left: 0, ease: Power1.easeInOut, delay: .4})
-    //         .set(LandingCover, {display: 'none'})
-    //         .to(LandingLoadingPercent, .5, {opacity: 0, delay: .3})
-    //         .to(LandingLoading, .8, {top: '-100%', delay: .3, ease: Expo.easeInOut})
-    //         .set(LandingLoading, {display: 'none'})
-    //     //In
-    //     .add('wave1')
-    //         .to(LandingHeader, .6, {opacity: 1, y: 0, delay: .5, ease: Power1.easeInOut}, 'wave1')
-    //         .to(LandingIntroHeader, 1, {opacity: 1, y: 0, ease: Power1.easeInOut}, '-=.7')
-    //         .to(LandingIntroRight, 1, {opacity: 1, y: 0, ease: Power1.easeInOut}, '-=.9')
-    //         .to(LandingConstantAddress, 1, {opacity: 1, x: 0, ease: Power1.easeInOut}, '-=.8')
-    //         .to(LandingConstantSocials, 1, {opacity: 1, y: 0, ease: Power1.easeInOut}, '-=.8')
-    //         .to(LandingConstantConnectIcon, 1, {opacity: 1, y: 0, ease: Power1.easeInOut}, '-=.9')
-    //         .to(LandingClients, 1, {opacity: 1}, '-=1.3')
-    //         ;
-
-    //         // LandingIntroTl.pause();
 
 
 
@@ -115,7 +84,7 @@ const controller = new ScrollMagic.Controller();
         const LandingProject1Scene = new ScrollMagic.Scene({
             triggerElement: '#LandingProject1',
             reverse: false,
-            triggerHook: .65,
+            triggerHook: .75,
         })
         .setClassToggle('#Landing_CaseStudy-Project-Cover1', 'Slide-Right')
         // .addIndicators({
@@ -131,7 +100,7 @@ const controller = new ScrollMagic.Controller();
         const LandingProject2Scene = new ScrollMagic.Scene({
             triggerElement: '#LandingProject2',
             reverse: false,
-            triggerHook: .65,
+            triggerHook: .75,
         })
         .setClassToggle('#Landing_CaseStudy-Project-Cover2', 'Slide-Right')
         // .addIndicators({
@@ -147,7 +116,7 @@ const controller = new ScrollMagic.Controller();
         const LandingProject3Scene = new ScrollMagic.Scene({
             triggerElement: '#LandingProject3',
             reverse: false,
-            triggerHook: .65,
+            triggerHook: .75,
         })
         .setClassToggle('#Landing_CaseStudy-Project-Cover3', 'Slide-Right')
         // .addIndicators({
@@ -163,7 +132,7 @@ const controller = new ScrollMagic.Controller();
         const LandingProject4Scene = new ScrollMagic.Scene({
             triggerElement: '#LandingProject4',
             reverse: false,
-            triggerHook: .65,
+            triggerHook: .75,
         })
         .setClassToggle('#Landing_CaseStudy-Project-Cover4', 'Slide-Right')
         // .addIndicators({
@@ -179,7 +148,7 @@ const controller = new ScrollMagic.Controller();
         const LandingProject5Scene = new ScrollMagic.Scene({
             triggerElement: '#LandingProject5',
             reverse: false,
-            triggerHook: .65,
+            triggerHook: .75,
         })
         .setClassToggle('#Landing_CaseStudy-Project-Cover5', 'Slide-Right')
         // .addIndicators({
