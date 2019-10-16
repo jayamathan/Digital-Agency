@@ -6,14 +6,17 @@ Project live at [Link](https://monsters-and-silk.web.app)
 
 This website is a remake of an existing website https://www.wolfwhale.com/
 
-Build
+### Build
 
 This Project is built with:
-  HTML
-  SASS
-  JavaScript
-  Jquery
-  Parcel
-  Babel
-  GSAP
-  ScrollMagic
+  - HTML
+  - SASS
+  - JavaScript
+  - Jquery
+  - Parcel
+  - Babel
+  - GSAP
+  - ScrollMagic
+  
+  
+  
